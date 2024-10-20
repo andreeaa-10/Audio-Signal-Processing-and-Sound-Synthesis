@@ -28,3 +28,8 @@ A spectrogram is a visual representation of the spectrum of frequencies of a sig
 The <b>Short-Time Fourier Transform (STFT)</b> is a technique used to analyze the frequency content of a signal as it changes over time. If we take the Fourier Transform of the entire signal, we would get all frequencies in the signal, but there is no way of knowing when each frequency appears, how many times it appears and how often it lasts.
 
 The solution is simple: divide the signal into smaller pieces (windows) and compute the Fourier Transform of each window.
+<h3>
+  Low Pass Filter
+</h3>
+Knowing that the FFT of a signal gives us the frequency content of the signal, we can use this to filter out certain frequencies. The idea is to set to zero the FFT coefficients corresponding to the frequencies we want to remove, and then apply the inverse FFT to obtain the filtered signal.
+<br></br>
