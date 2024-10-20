@@ -17,3 +17,11 @@ sampling rate, the more accurately the digital signal represents the original an
 <li><b>Quantization:</b> The sampled signal is quantized. This means that the signal is divided into discrete levels. The number of levels is determined by the bit depth. The bit depth is measured in bits.
 The higher the bit depth, the more accurately the digital signal represents the original analog signal.</li>
 </ol>
+<h3>
+  Spectrogram
+</h3>
+A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. It is a two-dimensional plot of the frequency w.r.t. time. It is a colored plot, where the color represents the amplitude of the signal at that time and frequency.
+<br></br>
+<p align="center">
+    <img width="400" src="https://github.com/user-attachments/assets/0432dfe5-ca9f-4e6d-b406-73c5ab7a3d76">
+</p>
