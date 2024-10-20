@@ -25,3 +25,6 @@ A spectrogram is a visual representation of the spectrum of frequencies of a sig
 <p align="center">
     <img width="400" src="https://github.com/user-attachments/assets/0432dfe5-ca9f-4e6d-b406-73c5ab7a3d76">
 </p>
+The <b>Short-Time Fourier Transform (STFT)</b> is a technique used to analyze the frequency content of a signal as it changes over time. If we take the Fourier Transform of the entire signal, we would get all frequencies in the signal, but there is no way of knowing when each frequency appears, how many times it appears and how often it lasts.
+
+The solution is simple: divide the signal into smaller pieces (windows) and compute the Fourier Transform of each window.
