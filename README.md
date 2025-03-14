@@ -1,5 +1,5 @@
 <h1>
-  Audio Signal Processing Overview
+  Audio Signal Processing
 </h1>
 I developed a strong understanding of <b>audio signal processing</b>, covered key concepts such as storing analog signals (stereo and mono), creating artificial sounds using oscillators, visualizing sound,
 and applying filters to audio, with a focus on practical applications in music production. I investigated the <b>Fourier transformation</b> and its inverse. Learned how to analyze sound frequencies and
